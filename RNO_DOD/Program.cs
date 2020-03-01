@@ -15,7 +15,7 @@ namespace RNO_DOD
                 return;
             for (int i = 0; i < iloscTestow; i++)
             {
-                var liczbaLiczb = Int32.Parse(Console.ReadLine());
+                Int32.Parse(Console.ReadLine());
      
                 var linia = Console.ReadLine();
                 string[] tab = linia.Split(' ');
