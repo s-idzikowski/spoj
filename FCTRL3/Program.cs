@@ -33,7 +33,7 @@ namespace FCTRL3
                         wynik *= j;
                     }
 
-                    wynik = wynik % 100;
+                    wynik %= 100;
                     if (wynik < 10)
                         Console.WriteLine("0 " + wynik);
                     else
